@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/useralex/cppunittest/lib/addOn/addon.cpp
+addon.h
+/home/useralex/cppunittest/lib/addOn/addon.h
+iostream
+-
+random
+-
+chrono
+-
+random
+-
+chrono
+-
+cstdlib
+-
+ctime
+-
+
+/home/useralex/cppunittest/lib/addOn/addon.h
+

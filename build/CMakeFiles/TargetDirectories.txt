@@ -1,0 +1,9 @@
+/home/useralex/cppunittest/build/CMakeFiles/rebuild_cache.dir
+/home/useralex/cppunittest/build/CMakeFiles/edit_cache.dir
+/home/useralex/cppunittest/build/CMakeFiles/run_tests.dir
+/home/useralex/cppunittest/build/lib/addOn/CMakeFiles/rebuild_cache.dir
+/home/useralex/cppunittest/build/lib/addOn/CMakeFiles/edit_cache.dir
+/home/useralex/cppunittest/build/lib/addOn/CMakeFiles/addon_lib.dir
+/home/useralex/cppunittest/build/lib/func/CMakeFiles/rebuild_cache.dir
+/home/useralex/cppunittest/build/lib/func/CMakeFiles/edit_cache.dir
+/home/useralex/cppunittest/build/lib/func/CMakeFiles/addon_func_lib.dir
