@@ -1,2 +1,0 @@
-/usr/bin/ar qc libaddon_lib.a  CMakeFiles/addon_lib.dir/addon.cpp.o
-/usr/bin/ranlib libaddon_lib.a

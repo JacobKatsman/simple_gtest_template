@@ -1,2 +1,0 @@
-/usr/bin/ar qc libaddon_func_lib.a  CMakeFiles/addon_func_lib.dir/functions.cpp.o
-/usr/bin/ranlib libaddon_func_lib.a
