@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/run_tests.dir/lib/func/functions.cpp.o"
+  "CMakeFiles/run_tests.dir/main.cpp.o"
   "CMakeFiles/run_tests.dir/test/mocks/test_main.cpp.o"
-  "CMakeFiles/run_tests.dir/test_main.cpp.o"
   "run_tests"
   "run_tests.pdb"
 )

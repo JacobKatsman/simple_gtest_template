@@ -176,6 +176,33 @@ lib/func/functions.cpp.s:
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/lib/func/functions.cpp.s
 .PHONY : lib/func/functions.cpp.s
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 test/mocks/test_main.o: test/mocks/test_main.cpp.o
 
 .PHONY : test/mocks/test_main.o
@@ -203,33 +230,6 @@ test/mocks/test_main.cpp.s:
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/test/mocks/test_main.cpp.s
 .PHONY : test/mocks/test_main.cpp.s
 
-test_main.o: test_main.cpp.o
-
-.PHONY : test_main.o
-
-# target to build an object file
-test_main.cpp.o:
-	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/test_main.cpp.o
-.PHONY : test_main.cpp.o
-
-test_main.i: test_main.cpp.i
-
-.PHONY : test_main.i
-
-# target to preprocess a source file
-test_main.cpp.i:
-	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/test_main.cpp.i
-.PHONY : test_main.cpp.i
-
-test_main.s: test_main.cpp.s
-
-.PHONY : test_main.s
-
-# target to generate assembly for a file
-test_main.cpp.s:
-	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/test_main.cpp.s
-.PHONY : test_main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -244,12 +244,12 @@ help:
 	@echo "... lib/func/functions.o"
 	@echo "... lib/func/functions.i"
 	@echo "... lib/func/functions.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... test/mocks/test_main.o"
 	@echo "... test/mocks/test_main.i"
 	@echo "... test/mocks/test_main.s"
-	@echo "... test_main.o"
-	@echo "... test_main.i"
-	@echo "... test_main.s"
 .PHONY : help
 
 

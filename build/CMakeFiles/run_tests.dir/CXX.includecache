@@ -26,13 +26,11 @@ iostream
 
 /home/useralex/cppunittest/lib/func/functions.h
 
-/home/useralex/cppunittest/test/mocks/mock_addon.h
-../lib/addOn/addon.h
-/home/useralex/cppunittest/test/lib/addOn/addon.h
-../lib/func/functions.h
-/home/useralex/cppunittest/test/lib/func/functions.h
-gmock/gmock.h
+/home/useralex/cppunittest/main.cpp
+gtest/gtest.h
 -
+functions.h
+/home/useralex/cppunittest/functions.h
 
 /home/useralex/cppunittest/test/mocks/test_main.cpp
 gmock/gmock.h
@@ -41,12 +39,4 @@ mocks/mock_addon_gmock.h
 /home/useralex/cppunittest/test/mocks/mocks/mock_addon_gmock.h
 ../lib/func/functions.h
 /home/useralex/cppunittest/test/lib/func/functions.h
-
-/home/useralex/cppunittest/test_main.cpp
-gtest/gtest.h
--
-functions.h
-/home/useralex/cppunittest/functions.h
-test/mocks/mock_addon.h
-/home/useralex/cppunittest/test/mocks/mock_addon.h
 

@@ -57,18 +57,18 @@ include CMakeFiles/run_tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/run_tests.dir/flags.make
 
-CMakeFiles/run_tests.dir/test_main.cpp.o: CMakeFiles/run_tests.dir/flags.make
-CMakeFiles/run_tests.dir/test_main.cpp.o: ../test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/useralex/cppunittest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run_tests.dir/test_main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/test_main.cpp.o -c /home/useralex/cppunittest/test_main.cpp
+CMakeFiles/run_tests.dir/main.cpp.o: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/useralex/cppunittest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run_tests.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_tests.dir/main.cpp.o -c /home/useralex/cppunittest/main.cpp
 
-CMakeFiles/run_tests.dir/test_main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/test_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/useralex/cppunittest/test_main.cpp > CMakeFiles/run_tests.dir/test_main.cpp.i
+CMakeFiles/run_tests.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/useralex/cppunittest/main.cpp > CMakeFiles/run_tests.dir/main.cpp.i
 
-CMakeFiles/run_tests.dir/test_main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/test_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/useralex/cppunittest/test_main.cpp -o CMakeFiles/run_tests.dir/test_main.cpp.s
+CMakeFiles/run_tests.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/useralex/cppunittest/main.cpp -o CMakeFiles/run_tests.dir/main.cpp.s
 
 CMakeFiles/run_tests.dir/test/mocks/test_main.cpp.o: CMakeFiles/run_tests.dir/flags.make
 CMakeFiles/run_tests.dir/test/mocks/test_main.cpp.o: ../test/mocks/test_main.cpp
@@ -98,14 +98,14 @@ CMakeFiles/run_tests.dir/lib/func/functions.cpp.s: cmake_force
 
 # Object files for target run_tests
 run_tests_OBJECTS = \
-"CMakeFiles/run_tests.dir/test_main.cpp.o" \
+"CMakeFiles/run_tests.dir/main.cpp.o" \
 "CMakeFiles/run_tests.dir/test/mocks/test_main.cpp.o" \
 "CMakeFiles/run_tests.dir/lib/func/functions.cpp.o"
 
 # External object files for target run_tests
 run_tests_EXTERNAL_OBJECTS =
 
-run_tests: CMakeFiles/run_tests.dir/test_main.cpp.o
+run_tests: CMakeFiles/run_tests.dir/main.cpp.o
 run_tests: CMakeFiles/run_tests.dir/test/mocks/test_main.cpp.o
 run_tests: CMakeFiles/run_tests.dir/lib/func/functions.cpp.o
 run_tests: CMakeFiles/run_tests.dir/build.make

@@ -5,8 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/useralex/cppunittest/lib/func/functions.cpp" "/home/useralex/cppunittest/build/CMakeFiles/run_tests.dir/lib/func/functions.cpp.o"
+  "/home/useralex/cppunittest/main.cpp" "/home/useralex/cppunittest/build/CMakeFiles/run_tests.dir/main.cpp.o"
   "/home/useralex/cppunittest/test/mocks/test_main.cpp" "/home/useralex/cppunittest/build/CMakeFiles/run_tests.dir/test/mocks/test_main.cpp.o"
-  "/home/useralex/cppunittest/test_main.cpp" "/home/useralex/cppunittest/build/CMakeFiles/run_tests.dir/test_main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

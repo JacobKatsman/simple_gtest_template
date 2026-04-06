@@ -26,7 +26,7 @@ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/lib/func)
 
 # ... в секции, где вы создаёте исполняемый файл, например:
 add_executable(run_tests 
-    test_main.cpp
+    main.cpp
     test/mocks/test_main.cpp
     lib/func/functions.cpp
 )
